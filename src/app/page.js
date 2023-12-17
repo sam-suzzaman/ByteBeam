@@ -1,3 +1,9 @@
+import Hero from "@/components/HomePageCom/Hero";
+
 export default function Home() {
-    return <h2>Hello from Home page of Byte Beem website</h2>;
+    return (
+        <>
+            <Hero />
+        </>
+    );
 }
